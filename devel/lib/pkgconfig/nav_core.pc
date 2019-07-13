@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: nav_core
+Description: Description of nav_core
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/src/navigation/nav_core/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib 
+Requires: std_msgs geometry_msgs tf costmap_2d

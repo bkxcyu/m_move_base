@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: move_base
+Description: Description of move_base
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/devel/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib 
+Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp

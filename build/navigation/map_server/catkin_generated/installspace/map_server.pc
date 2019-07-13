@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/install
+
+Name: map_server
+Description: Description of map_server
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/install/include
+Libs: -L/home/bkxcyu/m_move_base/install/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

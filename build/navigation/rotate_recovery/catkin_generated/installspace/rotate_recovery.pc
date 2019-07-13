@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/install
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/install/include
+Libs: -L/home/bkxcyu/m_move_base/install/lib -lrotate_recovery
+Requires: roscpp pluginlib

@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: dwa_local_planner
+Description: Description of dwa_local_planner
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/devel/include -I/home/bkxcyu/m_move_base/src/navigation/dwa_local_planner/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib -ldwa_local_planner
+Requires: dynamic_reconfigure nav_msgs pluginlib roscpp

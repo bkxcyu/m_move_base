@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/src/navigation/voxel_grid/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib -lvoxel_grid
+Requires: roscpp

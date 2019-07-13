@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: carrot_planner
+Description: Description of carrot_planner
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/src/navigation/carrot_planner/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib -lcarrot_planner
+Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

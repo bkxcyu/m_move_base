@@ -1,0 +1,8 @@
+prefix=/home/bkxcyu/m_move_base/devel
+
+Name: move_slow_and_clear
+Description: Description of move_slow_and_clear
+Version: 1.15.2
+Cflags: -I/home/bkxcyu/m_move_base/src/navigation/move_slow_and_clear/include
+Libs: -L/home/bkxcyu/m_move_base/devel/lib -lmove_slow_and_clear
+Requires: geometry_msgs nav_core pluginlib roscpp
